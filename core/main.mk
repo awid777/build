@@ -176,7 +176,7 @@ $(info $(space)$(space)$(space)$(space)https://source.android.com/source/downloa
 $(info $(space))
 $(info Continue at your own peril!)
 $(info ************************************************************)
-$(error stop)
+#$(error stop)
 endif # java version is not Sun Oracle JDK
 endif # if requires_openjdk
 
@@ -192,7 +192,7 @@ $(info $(space))
 $(info Please follow the machine setup instructions at)
 $(info $(space)$(space)$(space)$(space)https://source.android.com/source/download.html)
 $(info ************************************************************)
-$(error stop)
+#$(error stop)
 endif
 
 ifndef BUILD_EMULATOR
